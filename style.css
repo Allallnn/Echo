@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #2EA4484D;
+  padding: 12px 0;
+}
+
+#navbarNav a{
+padding-top: 1rem;
+}
+
+#navbarNav {
+margin-right: 3rem;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar-collapse {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-nav {
+  gap: 30px;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.signup-btn {
+  background: #039122;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.dropdown {
+    margin-right: 3rem;
+}
+
+
+@media (max-width: 425px) {
+  .navbar-collapse {
+    position: static;
+    transform: none;
+  }
+
+  .right-section {
+    display: none;
+  }
+}
