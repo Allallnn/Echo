@@ -1,75 +1,44 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --gray-900: #181d27;
+  --main-green: #039122;
+  --white: #ffffff;
+  --brown-800: #ca7f4d;
+  --gray-400: #a4a7ae;
+  --light-green: #ddfde4;
 }
-
+body {
+  font-family: "Raleway", sans-serif;
+}
 .navbar {
-  background-color: #2EA4484D;
-  padding: 12px 0;
-}
-
-#navbarNav a{
-padding-top: 1rem;
-}
-
-#navbarNav {
-margin: 0 au;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 16px;
 }
 
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-.navbar-brand img {
-  height: 40px;
-}
-
-.navbar-collapse {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.navbar-nav {
-  gap: 30px;
-}
 
 .nav-link {
-  color: #000;
-  font-weight: 500;
+  color: var(--gray-900);
 }
-
-.right-section {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.signup-btn {
-  background: #039122;
-  color: #fff;
-  border: none;
-  padding: 8px 16px;
+.sign-up-btn {
+  background-color: var(--main-green);
+  color: var(--white);
   border-radius: 6px;
+  padding: 11px 42px;
+  border: none;
+  margin-right: 20px;
 }
-
-.dropdown {
-    margin-right: 3rem;
+.sign-in-btn {
+  color: var(--brown-800);
+  border-radius: 6px;
+  padding: 11px 19px;
+  border: 1px solid var(--brown-800);
 }
-
-
-@media (max-width: 425px) {
-  .navbar-collapse {
-    position: static;
-    transform: none;
-  }
-
-  .right-section {
-    display: none;
+@media (max-width: 500px) {
+      .navbar {
+    padding: 20px 0;
   }
 }
+
+/* HERO SECTION IS HOMEWORK */
