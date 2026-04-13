@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --gray-900: #181d27;
   --main-green: #039122;
@@ -7,20 +8,22 @@
   --gray-400: #a4a7ae;
   --light-green: #ddfde4;
 }
+
 body {
   font-family: "Raleway", sans-serif;
 }
+
+/* Nav */
 .navbar {
   font-weight: 500;
   font-size: 18px;
   padding: 16px;
 }
 
-
-
 .nav-link {
   color: var(--gray-900);
 }
+
 .sign-up-btn {
   background-color: var(--main-green);
   color: var(--white);
@@ -29,16 +32,96 @@ body {
   border: none;
   margin-right: 20px;
 }
+
 .sign-in-btn {
   color: var(--brown-800);
   border-radius: 6px;
   padding: 11px 19px;
   border: 1px solid var(--brown-800);
 }
-@media (max-width: 500px) {
-      .navbar {
-    padding: 20px 0;
-  }
+
+/* Main */
+main {
+  height: 681px;
+  display: flex;
+  align-items: center;
+
+  background: url("assets/hero-image.png") center/cover no-repeat;
 }
 
-/* HERO SECTION IS HOMEWORK */
+
+main img {
+  display: none;
+}
+
+main .container {
+  position: relative;
+}
+
+
+main .text-div {
+  width: 785px;
+}
+
+main h1 {
+  font-size: 60px;
+  color: #ddfde4;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+main span {
+  font-size: 50px;
+  padding: 0.3rem;
+  background-color: #ca7f4d;
+  border-radius: 11px;
+}
+
+main p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ddfde4;
+  margin-bottom: 2rem;
+}
+
+main button {
+  padding: 11px 42px;
+  border-radius: 6px;
+}
+
+main #btn-1 {
+  background-color: #039122;
+  border: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+main #btn-2 {
+  background-color: transparent;
+  border: 1px solid #ca7f4d;
+  color: #ca7f4d;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .navbar {
+    padding: 20px 0;
+  }
+
+  main {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  main .text-div {
+    width: 100%;
+  }
+
+  main h1 {
+    font-size: 36px;
+  }
+
+  main p {
+    font-size: 18px;
+  }
+}
