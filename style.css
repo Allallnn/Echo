@@ -51,7 +51,6 @@ header {
   padding: 5rem 0;
   display: flex;
   align-items: center;
-  position: relative;
 }
 header h1 {
   color: var(--light-green);
@@ -91,57 +90,84 @@ header p {
   margin-right: 20px;
 }
 .message-sqr-wrapper {
-  position: absolute;
+  position: fixed;
   right: 70px;
 }
 
 /* Section-2 */
-.section-2 {
-  padding: 40px 0;
-  text-align: center;
+
+.section-2-div{
+    padding: 40px 0;
 }
-
-.section-2 h4 {
-  color: #181d27;
-  font-weight: 700;
-  font-size: 16px;
+.section-2-div h4{
+    color: var(--gray-900);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
-
-.section-2 h1 {
-  color: #ca7f4d;
-  font-weight: 700;
-  font-size: 48px;
-  max-width: 932px;
-  margin: auto;
-  padding: 20px 0;
+.section-2-div h1{
+   font-weight: 700;
+   font-size: 48px;
+   color: var(--brown-800);
+   max-width: 50%;
+   margin: auto;
+   padding: 20px 0;
 }
-
-.section-2 p {
-  font-weight: 500;
-  font-size: 20px;
-  color: #414651;
-  max-width: 621px;
-  margin: auto;
+.section-2-div p{
+   font-weight: 500;
+   font-size: 20px;
+   color: var(--gray-700);
+   max-width: 40%;
+   margin: auto;
 }
-
-
-.section-2 .d-flex {
-  text-align: left;
+.section-2-div-2{
+    padding-bottom: 20px;
 }
-
-.section-2 .d-flex img {
-  background-color: transparent;
+.section-2-div-2 h4{
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--gray-900);
+    padding: 10px 0;
+}
+.section-2-div-2 p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #474A47;
+}
+/* Section 3 */
+/* section-3 */
+.section-3 h4{
+    color: var(--gray-800);
+    font-weight: 700;
+    font-size: 16px;
+}
+.section-3 h2{
+    color: var(--brown-800);
+    font-weight: 700;
+    font-size: 48px;
+}
+.section-3-parent-div h3{
+    color: var(--gray-900);
+    font-size: 18px;
+    font-weight: 600;
+}
+.section-3-parent-div p{
+    color: var(--gray-700);
+    font-weight: 500;
+    font-size: 16px;
+}
+.section-3-parent-div .cards{
+    height: 222px;
 }
 
 /* Mobile */
 @media (max-width: 425px) {
-  .navbar {
-    padding: 20px 0;
-  }
+.navbar {
+  padding: 20px 0;
+}
 
   main {
-    height: auto;
-    padding: 60px 0;
+    /* padding: 60px 0; */
   }
 
   main h1 {
@@ -159,9 +185,9 @@ header p {
 
   header h1 {
     max-width: 100%;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 30px;
     text-align: center;
+    line-height: 38px;
   }
 
   header span {
@@ -170,9 +196,9 @@ header p {
 
   header p {
     font-size: 22px;
-    line-height: 28px;
     max-width: 100%;
     text-align: center;
+    line-height: 28px;
   }
 
   .btn-hero-wrapper {
@@ -188,37 +214,49 @@ header p {
 
   .section-2 h1 {
     font-size: 24px;
-    line-height: 32px;
     max-width: 100%;
   }
 
-  .section-2 p {
-    font-size: 16px;
-    line-height: 24px;
-    max-width: 100%;
-  }
-
-  .section-2 .col-lg-6:last-child {
-    display: none;
-  }
-
-  .section-2 .d-flex {
-    flex-direction: column;
-    align-items: center;
+/* section-2 */
+.section-2-div{
+    padding: 25px 0;
+}
+.section-2-div h4{
+    font-size: 14px;
+}
+.section-2-div h1{
+   font-size: 20px;
+   max-width: 100%;
+}
+.section-2-div p{
+   font-size: 16px;
+   max-width: 100%;
+}
+.section-2-div-2{
     text-align: center;
-  }
-
-  .section-2 .d-flex .me-3 {
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-
-  .section-2 .d-flex img {
-    background-color: var(--light-green);
-    padding: 18px;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-  }
+}
+.section-2-div-2 h4{
+    font-size: 20px;
+}
+.section-2-div-2 p{
+    font-size: 14px;
+}
+/* Section 3 */
+.section-3{
+    background-color: var(--main-green-200);
+    margin: 15px 0;
+}
+.section-3 h4{
+    font-size: 14px;
+}
+.section-3 h2{
+    font-size: 18px;
+}
+.section-3-parent-div h3{
+    font-size: 20px;
+    text-align: center;
+}
+.section-3-parent-div .cards{
+    height: 150px;
+}
 }
