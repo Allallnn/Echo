@@ -160,6 +160,15 @@ header p {
     height: 222px;
 }
 
+/* Section 4 */
+.Section-4 .card {
+
+width: 350px;
+
+
+
+}
+
 /* Mobile */
 @media (max-width: 425px) {
 .navbar {
