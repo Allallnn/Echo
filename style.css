@@ -209,7 +209,7 @@ box-shadow: gray 10px 10px;
 
 
 /* Mobile */
-@media (max-width: 425px) {
+@media (max-width: 500px) {
 .navbar {
   padding: 20px 0;
 }
