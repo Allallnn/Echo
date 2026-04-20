@@ -356,6 +356,7 @@ padding-bottom: 1rem;
 width: 100%;
 background-color: #F6FFF8;
 box-shadow: gray 10px 10px;
+flex: wrap;
 }
 
 .Section-4 span {
@@ -371,4 +372,5 @@ box-shadow: gray 10px 10px;
 .Section-4 #p-1 {
   color: #8D8BA7;
 }
+
 }
