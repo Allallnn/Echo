@@ -135,7 +135,9 @@ header p {
     color: #474A47;
 }
 /* Section 3 */
-/* section-3 */
+.section-3 p, h3 {
+  text-align: center;
+}
 .section-3 h4{
     color: var(--gray-800);
     font-weight: 700;
@@ -159,15 +161,52 @@ header p {
 .section-3-parent-div .cards{
     height: 222px;
 }
+/* wps */
 
-/* Section 4 */
-.Section-4 .card {
-
-width: 350px;
-
-
+.wps-div h1 {
+font-weight: 700;
+font-size: 48px;
+color: #ca7f4d;
+padding-bottom: 2rem;
 
 }
+
+.partner-img {
+  display: block;
+}
+
+.partners {
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+/* Section 4 */
+
+.Section-4 {
+  display: flex;
+  justify-content: space-between;
+}
+.Section-4 .card {
+width: 360px;
+background-color: #F6FFF8;
+box-shadow: gray 10px 10px;
+}
+
+.Section-4 span {
+  font-weight: 700;
+  font-size: 18px;
+    color: #5D5A88;
+}
+
+.Section-4 .card p {
+  font-weight: 400;
+  font-size: 18px
+}
+
+.Section-4 #p-1 {
+  color: #8D8BA7;
+}
+
 
 /* Mobile */
 @media (max-width: 425px) {
@@ -252,7 +291,7 @@ width: 350px;
 }
 /* Section 3 */
 .section-3{
-    background-color: var(--main-green-200);
+    background-color: #D7FFE0;
     margin: 15px 0;
 }
 .section-3 h4{
@@ -267,5 +306,69 @@ width: 350px;
 }
 .section-3-parent-div .cards{
     height: 150px;
+}
+.section-3 .div-4 h3 {
+  width: 250px;
+  margin: 0 auto;
+}
+.section-3 #img-8-div h3{
+font-weight: 700;
+font-size: 14px;
+color: #252B37;
+margin-top: 2rem;
+}
+
+
+.section-3 #img-8-div img{
+display: flex;
+margin: 0 auto;
+padding-top: 1rem;
+}
+/* Partner */
+.partner-img {
+  display: none;
+}
+
+.partners {
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+/* wps */
+
+.wps-div h1 {
+font-weight: 700;
+font-size: 18px;
+color: #ca7f4d;
+padding-bottom: 1rem;
+}
+
+
+
+/* Section 4 */
+.Section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Section-4 .card {
+width: 360px;
+background-color: #F6FFF8;
+box-shadow: gray 10px 10px;
+}
+
+.Section-4 span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.Section-4 .card p {
+  font-weight: 400;
+  font-size: 16px
+}
+
+.Section-4 #p-1 {
+  color: #8D8BA7;
 }
 }
