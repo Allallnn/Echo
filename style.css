@@ -195,7 +195,7 @@ position: relative;
 .Section-4 .card {
 width: 360px;
 background-color: #F6FFF8;
-box-shadow: gray 10px 10px ;
+box-shadow: gray 10px 10px 10px 10px;
 }
 
 .Section-4 span {
