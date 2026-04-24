@@ -217,7 +217,7 @@ box-shadow: gray 10px 10px ;
 /* Section 5 */
 
 .Section-5 {
-
+padding-top: 10rem;
 }
 
 .Section-5-div  {
@@ -412,6 +412,8 @@ padding-top: 1rem;
 
 /* wps */
 
+
+
 .wps-div h1 {
 font-weight: 700;
 font-size: 18px;
@@ -452,6 +454,10 @@ flex: wrap;
 }
 
 /* Section 5 */
+
+.Section-5 {
+padding-top: 0rem;
+}
 
 .Section-5 {
   margin-bottom: 1rem;
